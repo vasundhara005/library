@@ -1,0 +1,81 @@
+body{
+	margin:0;
+	padding:0;
+}
+.header
+{
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('book.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	text-align: top;
+	justify-content:center;
+	font-family: "Sofia", sans-serif;
+	border:none;
+}
+h1{
+	color:#fff;
+	margin-bottom:30px;
+	font-size: 45px;
+	/*letter-spacing: 2px; */
+    text-align: center;
+}
+.search-field
+{
+	height:25px;
+	padding: 10px;
+	border:none;
+	border-radius: 25px ;
+	
+}
+.bookname
+{
+ 	width: 400px;
+ 	margin:2%;
+ 	
+}
+.author
+{
+	width:200px;
+	margin:2%;
+	
+
+}
+.search-btn
+{
+	height: 50px;
+	width: 150px;
+	background: skyblue;
+	border:none;
+	color:#000;
+	border-radius: 25px;
+}
+.search-btn:hover{
+	background: skyblue;
+	cursor: pointer;
+}
+
+.form-box
+{
+	
+	padding:30px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
